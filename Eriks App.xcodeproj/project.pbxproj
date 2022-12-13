@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF3DB3F929492C7D004F1EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3DB3F829492C7D004F1EF7 /* AppDelegate.swift */; };
+		BF3DB3FB29492C7D004F1EF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3DB3FA29492C7D004F1EF7 /* SceneDelegate.swift */; };
+		BF3DB3FD29492C7D004F1EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3DB3FC29492C7D004F1EF7 /* ViewController.swift */; };
+		BF3DB40029492C7D004F1EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3DB3FE29492C7D004F1EF7 /* Main.storyboard */; };
+		BF3DB40329492C7D004F1EF7 /* Eriks_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF3DB40129492C7D004F1EF7 /* Eriks_App.xcdatamodeld */; };
+		BF3DB40529492C7F004F1EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3DB40429492C7F004F1EF7 /* Assets.xcassets */; };
+		BF3DB40829492C7F004F1EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3DB40629492C7F004F1EF7 /* LaunchScreen.storyboard */; };
+		BF3DB41329492C7F004F1EF7 /* Eriks_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3DB41229492C7F004F1EF7 /* Eriks_AppTests.swift */; };
+		BF3DB41D29492C7F004F1EF7 /* Eriks_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3DB41C29492C7F004F1EF7 /* Eriks_AppUITests.swift */; };
+		BF3DB41F29492C7F004F1EF7 /* Eriks_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3DB41E29492C7F004F1EF7 /* Eriks_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF3DB40F29492C7F004F1EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF3DB3ED29492C7D004F1EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF3DB3F429492C7D004F1EF7;
+			remoteInfo = "Eriks App";
+		};
+		BF3DB41929492C7F004F1EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF3DB3ED29492C7D004F1EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF3DB3F429492C7D004F1EF7;
+			remoteInfo = "Eriks App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF3DB3F529492C7D004F1EF7 /* Eriks App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eriks App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3DB3F829492C7D004F1EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF3DB3FA29492C7D004F1EF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF3DB3FC29492C7D004F1EF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF3DB3FF29492C7D004F1EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF3DB40229492C7D004F1EF7 /* Eriks_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eriks_App.xcdatamodel; sourceTree = "<group>"; };
+		BF3DB40429492C7F004F1EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF3DB40729492C7F004F1EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF3DB40929492C7F004F1EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3DB40E29492C7F004F1EF7 /* Eriks AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eriks AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3DB41229492C7F004F1EF7 /* Eriks_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eriks_AppTests.swift; sourceTree = "<group>"; };
+		BF3DB41829492C7F004F1EF7 /* Eriks AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eriks AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3DB41C29492C7F004F1EF7 /* Eriks_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eriks_AppUITests.swift; sourceTree = "<group>"; };
+		BF3DB41E29492C7F004F1EF7 /* Eriks_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eriks_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF3DB3F229492C7D004F1EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3DB40B29492C7F004F1EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3DB41529492C7F004F1EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF3DB3EC29492C7D004F1EF7 = {
+			isa = PBXGroup;
+			children = (
+				BF3DB3F729492C7D004F1EF7 /* Eriks App */,
+				BF3DB41129492C7F004F1EF7 /* Eriks AppTests */,
+				BF3DB41B29492C7F004F1EF7 /* Eriks AppUITests */,
+				BF3DB3F629492C7D004F1EF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF3DB3F629492C7D004F1EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF3DB3F529492C7D004F1EF7 /* Eriks App.app */,
+				BF3DB40E29492C7F004F1EF7 /* Eriks AppTests.xctest */,
+				BF3DB41829492C7F004F1EF7 /* Eriks AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF3DB3F729492C7D004F1EF7 /* Eriks App */ = {
+			isa = PBXGroup;
+			children = (
+				BF3DB3F829492C7D004F1EF7 /* AppDelegate.swift */,
+				BF3DB3FA29492C7D004F1EF7 /* SceneDelegate.swift */,
+				BF3DB3FC29492C7D004F1EF7 /* ViewController.swift */,
+				BF3DB3FE29492C7D004F1EF7 /* Main.storyboard */,
+				BF3DB40429492C7F004F1EF7 /* Assets.xcassets */,
+				BF3DB40629492C7F004F1EF7 /* LaunchScreen.storyboard */,
+				BF3DB40929492C7F004F1EF7 /* Info.plist */,
+				BF3DB40129492C7D004F1EF7 /* Eriks_App.xcdatamodeld */,
+			);
+			path = "Eriks App";
+			sourceTree = "<group>";
+		};
+		BF3DB41129492C7F004F1EF7 /* Eriks AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF3DB41229492C7F004F1EF7 /* Eriks_AppTests.swift */,
+			);
+			path = "Eriks AppTests";
+			sourceTree = "<group>";
+		};
+		BF3DB41B29492C7F004F1EF7 /* Eriks AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF3DB41C29492C7F004F1EF7 /* Eriks_AppUITests.swift */,
+				BF3DB41E29492C7F004F1EF7 /* Eriks_AppUITestsLaunchTests.swift */,
+			);
+			path = "Eriks AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF3DB3F429492C7D004F1EF7 /* Eriks App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3DB42229492C7F004F1EF7 /* Build configuration list for PBXNativeTarget "Eriks App" */;
+			buildPhases = (
+				BF3DB3F129492C7D004F1EF7 /* Sources */,
+				BF3DB3F229492C7D004F1EF7 /* Frameworks */,
+				BF3DB3F329492C7D004F1EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eriks App";
+			productName = "Eriks App";
+			productReference = BF3DB3F529492C7D004F1EF7 /* Eriks App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF3DB40D29492C7F004F1EF7 /* Eriks AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3DB42529492C7F004F1EF7 /* Build configuration list for PBXNativeTarget "Eriks AppTests" */;
+			buildPhases = (
+				BF3DB40A29492C7F004F1EF7 /* Sources */,
+				BF3DB40B29492C7F004F1EF7 /* Frameworks */,
+				BF3DB40C29492C7F004F1EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF3DB41029492C7F004F1EF7 /* PBXTargetDependency */,
+			);
+			name = "Eriks AppTests";
+			productName = "Eriks AppTests";
+			productReference = BF3DB40E29492C7F004F1EF7 /* Eriks AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF3DB41729492C7F004F1EF7 /* Eriks AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3DB42829492C7F004F1EF7 /* Build configuration list for PBXNativeTarget "Eriks AppUITests" */;
+			buildPhases = (
+				BF3DB41429492C7F004F1EF7 /* Sources */,
+				BF3DB41529492C7F004F1EF7 /* Frameworks */,
+				BF3DB41629492C7F004F1EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF3DB41A29492C7F004F1EF7 /* PBXTargetDependency */,
+			);
+			name = "Eriks AppUITests";
+			productName = "Eriks AppUITests";
+			productReference = BF3DB41829492C7F004F1EF7 /* Eriks AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF3DB3ED29492C7D004F1EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					BF3DB3F429492C7D004F1EF7 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					BF3DB40D29492C7F004F1EF7 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BF3DB3F429492C7D004F1EF7;
+					};
+					BF3DB41729492C7F004F1EF7 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BF3DB3F429492C7D004F1EF7;
+					};
+				};
+			};
+			buildConfigurationList = BF3DB3F029492C7D004F1EF7 /* Build configuration list for PBXProject "Eriks App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF3DB3EC29492C7D004F1EF7;
+			productRefGroup = BF3DB3F629492C7D004F1EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF3DB3F429492C7D004F1EF7 /* Eriks App */,
+				BF3DB40D29492C7F004F1EF7 /* Eriks AppTests */,
+				BF3DB41729492C7F004F1EF7 /* Eriks AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF3DB3F329492C7D004F1EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3DB40829492C7F004F1EF7 /* LaunchScreen.storyboard in Resources */,
+				BF3DB40529492C7F004F1EF7 /* Assets.xcassets in Resources */,
+				BF3DB40029492C7D004F1EF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3DB40C29492C7F004F1EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3DB41629492C7F004F1EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF3DB3F129492C7D004F1EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3DB40329492C7D004F1EF7 /* Eriks_App.xcdatamodeld in Sources */,
+				BF3DB3FD29492C7D004F1EF7 /* ViewController.swift in Sources */,
+				BF3DB3F929492C7D004F1EF7 /* AppDelegate.swift in Sources */,
+				BF3DB3FB29492C7D004F1EF7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3DB40A29492C7F004F1EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3DB41329492C7F004F1EF7 /* Eriks_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3DB41429492C7F004F1EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3DB41D29492C7F004F1EF7 /* Eriks_AppUITests.swift in Sources */,
+				BF3DB41F29492C7F004F1EF7 /* Eriks_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF3DB41029492C7F004F1EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF3DB3F429492C7D004F1EF7 /* Eriks App */;
+			targetProxy = BF3DB40F29492C7F004F1EF7 /* PBXContainerItemProxy */;
+		};
+		BF3DB41A29492C7F004F1EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF3DB3F429492C7D004F1EF7 /* Eriks App */;
+			targetProxy = BF3DB41929492C7F004F1EF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF3DB3FE29492C7D004F1EF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF3DB3FF29492C7D004F1EF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF3DB40629492C7F004F1EF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF3DB40729492C7F004F1EF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF3DB42029492C7F004F1EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF3DB42129492C7F004F1EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF3DB42329492C7F004F1EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3368P9RZ33;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Eriks App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wyattbodle.Eriks-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF3DB42429492C7F004F1EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3368P9RZ33;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Eriks App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wyattbodle.Eriks-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF3DB42629492C7F004F1EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3368P9RZ33;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wyattbodle.Eriks-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eriks App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Eriks App";
+			};
+			name = Debug;
+		};
+		BF3DB42729492C7F004F1EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3368P9RZ33;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wyattbodle.Eriks-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eriks App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Eriks App";
+			};
+			name = Release;
+		};
+		BF3DB42929492C7F004F1EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3368P9RZ33;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wyattbodle.Eriks-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eriks App";
+			};
+			name = Debug;
+		};
+		BF3DB42A29492C7F004F1EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3368P9RZ33;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wyattbodle.Eriks-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eriks App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF3DB3F029492C7D004F1EF7 /* Build configuration list for PBXProject "Eriks App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3DB42029492C7F004F1EF7 /* Debug */,
+				BF3DB42129492C7F004F1EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3DB42229492C7F004F1EF7 /* Build configuration list for PBXNativeTarget "Eriks App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3DB42329492C7F004F1EF7 /* Debug */,
+				BF3DB42429492C7F004F1EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3DB42529492C7F004F1EF7 /* Build configuration list for PBXNativeTarget "Eriks AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3DB42629492C7F004F1EF7 /* Debug */,
+				BF3DB42729492C7F004F1EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3DB42829492C7F004F1EF7 /* Build configuration list for PBXNativeTarget "Eriks AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3DB42929492C7F004F1EF7 /* Debug */,
+				BF3DB42A29492C7F004F1EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF3DB40129492C7D004F1EF7 /* Eriks_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF3DB40229492C7D004F1EF7 /* Eriks_App.xcdatamodel */,
+			);
+			currentVersion = BF3DB40229492C7D004F1EF7 /* Eriks_App.xcdatamodel */;
+			path = Eriks_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF3DB3ED29492C7D004F1EF7 /* Project object */;
+}
