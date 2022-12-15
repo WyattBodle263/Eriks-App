@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF29505D29494DC200D44335 /* TheGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF29505C29494DC200D44335 /* TheGame.swift */; };
+		BF29505F29496F8900D44335 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF29505E29496F8900D44335 /* GoogleService-Info.plist */; };
+		BF29506229496FD500D44335 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BF29506129496FD500D44335 /* FirebaseAnalytics */; };
+		BF29506429496FD500D44335 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = BF29506329496FD500D44335 /* FirebaseAnalyticsOnDeviceConversion */; };
+		BF29506629496FD500D44335 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = BF29506529496FD500D44335 /* FirebaseDatabase */; };
+		BF29506829496FD500D44335 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BF29506729496FD500D44335 /* FirebaseDatabaseSwift */; };
+		BF29506C294A47B300D44335 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF29506B294A47B300D44335 /* MyTableViewCell.swift */; };
 		BF3DB3F929492C7D004F1EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3DB3F829492C7D004F1EF7 /* AppDelegate.swift */; };
 		BF3DB3FB29492C7D004F1EF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3DB3FA29492C7D004F1EF7 /* SceneDelegate.swift */; };
-		BF3DB3FD29492C7D004F1EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3DB3FC29492C7D004F1EF7 /* ViewController.swift */; };
 		BF3DB40029492C7D004F1EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3DB3FE29492C7D004F1EF7 /* Main.storyboard */; };
 		BF3DB40329492C7D004F1EF7 /* Eriks_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF3DB40129492C7D004F1EF7 /* Eriks_App.xcdatamodeld */; };
 		BF3DB40529492C7F004F1EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3DB40429492C7F004F1EF7 /* Assets.xcassets */; };
@@ -17,6 +23,12 @@
 		BF3DB41329492C7F004F1EF7 /* Eriks_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3DB41229492C7F004F1EF7 /* Eriks_AppTests.swift */; };
 		BF3DB41D29492C7F004F1EF7 /* Eriks_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3DB41C29492C7F004F1EF7 /* Eriks_AppUITests.swift */; };
 		BF3DB41F29492C7F004F1EF7 /* Eriks_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3DB41E29492C7F004F1EF7 /* Eriks_AppUITestsLaunchTests.swift */; };
+		BF3DB42C29492E35004F1EF7 /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3DB42B29492E35004F1EF7 /* StatsViewController.swift */; };
+		BF3DB42E29492E50004F1EF7 /* GamesViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3DB42D29492E50004F1EF7 /* GamesViewControllers.swift */; };
+		BF3DB43029493BFE004F1EF7 /* GameSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3DB42F29493BFE004F1EF7 /* GameSelectorViewController.swift */; };
+		BFFAB495294A6C4400C85975 /* FreeThrowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFAB494294A6C4400C85975 /* FreeThrowViewController.swift */; };
+		BFFAB497294AA0B900C85975 /* ReusedFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFAB496294AA0B900C85975 /* ReusedFunctions.swift */; };
+		BFFAB499294AD32000C85975 /* OneVOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFAB498294AD32000C85975 /* OneVOneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF29505C29494DC200D44335 /* TheGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGame.swift; sourceTree = "<group>"; };
+		BF29505E29496F8900D44335 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF29506B294A47B300D44335 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		BF3DB3F529492C7D004F1EF7 /* Eriks App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eriks App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3DB3F829492C7D004F1EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF3DB3FA29492C7D004F1EF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF3DB3FC29492C7D004F1EF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF3DB3FF29492C7D004F1EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF3DB40229492C7D004F1EF7 /* Eriks_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eriks_App.xcdatamodel; sourceTree = "<group>"; };
 		BF3DB40429492C7F004F1EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +65,12 @@
 		BF3DB41829492C7F004F1EF7 /* Eriks AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eriks AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3DB41C29492C7F004F1EF7 /* Eriks_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eriks_AppUITests.swift; sourceTree = "<group>"; };
 		BF3DB41E29492C7F004F1EF7 /* Eriks_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eriks_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF3DB42B29492E35004F1EF7 /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		BF3DB42D29492E50004F1EF7 /* GamesViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewControllers.swift; sourceTree = "<group>"; };
+		BF3DB42F29493BFE004F1EF7 /* GameSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectorViewController.swift; sourceTree = "<group>"; };
+		BFFAB494294A6C4400C85975 /* FreeThrowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeThrowViewController.swift; sourceTree = "<group>"; };
+		BFFAB496294AA0B900C85975 /* ReusedFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusedFunctions.swift; sourceTree = "<group>"; };
+		BFFAB498294AD32000C85975 /* OneVOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneVOneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF29506829496FD500D44335 /* FirebaseDatabaseSwift in Frameworks */,
+				BF29506629496FD500D44335 /* FirebaseDatabase in Frameworks */,
+				BF29506229496FD500D44335 /* FirebaseAnalytics in Frameworks */,
+				BF29506429496FD500D44335 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,12 +127,20 @@
 			children = (
 				BF3DB3F829492C7D004F1EF7 /* AppDelegate.swift */,
 				BF3DB3FA29492C7D004F1EF7 /* SceneDelegate.swift */,
-				BF3DB3FC29492C7D004F1EF7 /* ViewController.swift */,
+				BF3DB42B29492E35004F1EF7 /* StatsViewController.swift */,
+				BF3DB42F29493BFE004F1EF7 /* GameSelectorViewController.swift */,
+				BF29505C29494DC200D44335 /* TheGame.swift */,
+				BF29506B294A47B300D44335 /* MyTableViewCell.swift */,
+				BFFAB496294AA0B900C85975 /* ReusedFunctions.swift */,
+				BF3DB42D29492E50004F1EF7 /* GamesViewControllers.swift */,
+				BFFAB494294A6C4400C85975 /* FreeThrowViewController.swift */,
+				BFFAB498294AD32000C85975 /* OneVOneViewController.swift */,
 				BF3DB3FE29492C7D004F1EF7 /* Main.storyboard */,
 				BF3DB40429492C7F004F1EF7 /* Assets.xcassets */,
 				BF3DB40629492C7F004F1EF7 /* LaunchScreen.storyboard */,
 				BF3DB40929492C7F004F1EF7 /* Info.plist */,
 				BF3DB40129492C7D004F1EF7 /* Eriks_App.xcdatamodeld */,
+				BF29505E29496F8900D44335 /* GoogleService-Info.plist */,
 			);
 			path = "Eriks App";
 			sourceTree = "<group>";
@@ -146,6 +178,12 @@
 			dependencies = (
 			);
 			name = "Eriks App";
+			packageProductDependencies = (
+				BF29506129496FD500D44335 /* FirebaseAnalytics */,
+				BF29506329496FD500D44335 /* FirebaseAnalyticsOnDeviceConversion */,
+				BF29506529496FD500D44335 /* FirebaseDatabase */,
+				BF29506729496FD500D44335 /* FirebaseDatabaseSwift */,
+			);
 			productName = "Eriks App";
 			productReference = BF3DB3F529492C7D004F1EF7 /* Eriks App.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +256,9 @@
 				Base,
 			);
 			mainGroup = BF3DB3EC29492C7D004F1EF7;
+			packageReferences = (
+				BF29506029496FD500D44335 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = BF3DB3F629492C7D004F1EF7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,6 +277,7 @@
 			files = (
 				BF3DB40829492C7F004F1EF7 /* LaunchScreen.storyboard in Resources */,
 				BF3DB40529492C7F004F1EF7 /* Assets.xcassets in Resources */,
+				BF29505F29496F8900D44335 /* GoogleService-Info.plist in Resources */,
 				BF3DB40029492C7D004F1EF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +304,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3DB40329492C7D004F1EF7 /* Eriks_App.xcdatamodeld in Sources */,
-				BF3DB3FD29492C7D004F1EF7 /* ViewController.swift in Sources */,
+				BF29505D29494DC200D44335 /* TheGame.swift in Sources */,
 				BF3DB3F929492C7D004F1EF7 /* AppDelegate.swift in Sources */,
+				BFFAB499294AD32000C85975 /* OneVOneViewController.swift in Sources */,
+				BF3DB42C29492E35004F1EF7 /* StatsViewController.swift in Sources */,
+				BF29506C294A47B300D44335 /* MyTableViewCell.swift in Sources */,
+				BF3DB42E29492E50004F1EF7 /* GamesViewControllers.swift in Sources */,
+				BFFAB495294A6C4400C85975 /* FreeThrowViewController.swift in Sources */,
+				BF3DB43029493BFE004F1EF7 /* GameSelectorViewController.swift in Sources */,
 				BF3DB3FB29492C7D004F1EF7 /* SceneDelegate.swift in Sources */,
+				BFFAB497294AA0B900C85975 /* ReusedFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,12 +496,13 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "wyattbodle.Eriks-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -475,12 +525,13 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "wyattbodle.Eriks-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -606,6 +657,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BF29506029496FD500D44335 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BF29506129496FD500D44335 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF29506029496FD500D44335 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		BF29506329496FD500D44335 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF29506029496FD500D44335 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		BF29506529496FD500D44335 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF29506029496FD500D44335 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		BF29506729496FD500D44335 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF29506029496FD500D44335 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		BF3DB40129492C7D004F1EF7 /* Eriks_App.xcdatamodeld */ = {
